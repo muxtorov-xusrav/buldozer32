@@ -1,0 +1,80 @@
+.blog-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .blog-container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ff6b00; /* Orange color */
+  }
+  
+  .blog-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .blog-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .blog-content {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .blog-content h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #002c71; /* Dark blue color */
+  }
+  
+  .blog-category {
+    color: #666;
+    font-size: 0.9em;
+    margin: 5px 0;
+  }
+  
+  .blog-description {
+    color: #333;
+    font-size: 0.9em;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .pagination-button {
+    background: #ff6b00; /* Orange color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .pagination-button.active {
+    background: #002c71; /* Dark blue color */
+  }
+  
+  .pagination-button:hover {
+    background: #cc5500; /* Darker orange color for hover */
+  }
+  
