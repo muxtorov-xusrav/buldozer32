@@ -6,7 +6,7 @@ body {
 }
 
 
-.project-gallery {
+.project1 {
     padding: 40px;
     max-width: 1200px;
     margin: 0 auto;
@@ -42,13 +42,13 @@ body {
 
 }
 
-.title {
+.tit1 {
     font-size: 1.5rem;
     color: #FDBE33;
    
 }
 
-.subtitle {
+.sub1 {
     font-size: 2.75rem;
     color: #030F27;
     margin-bottom: 30px;
@@ -106,7 +106,7 @@ body {
     transform: scale(1.1);
 }
 
-.overlay {
+.ove {
     position: absolute;
     top: 0;
     left: 0;
@@ -123,13 +123,13 @@ body {
     padding: 20px;
 }
 
-.project-card:hover .overlay {
+.project-card:hover .ove {
     opacity: 1;
   
     transform: scale(1.1);
 }
 
-.project-info {
+.info {
     background-color: #030F27;
     color: #FDBE33;
     padding: 15px;
@@ -146,7 +146,7 @@ body {
     margin: 0;
 }
 
-.project-info .plus-icon {
+.info .plus {
     background-color: white;
 
     width: 40px;
@@ -160,12 +160,12 @@ body {
     transition: background-color 0.3s, color 0.3s;
 }
 
-.project-card:hover .project-info .plus-icon {
+.project-card:hover .info .plus {
     background-color: #FDBE33;
     color: white;
 }
 
-.load-more {
+.load {
     background-color: #FDBE33;
     color: #030F27;
     border: none;
@@ -175,7 +175,7 @@ body {
     transition: background-color 0.3s;
 }
 
-.load-more:hover {
+.load:hover {
     background-color: #030F27;
     color: #fdbe33;
 }
