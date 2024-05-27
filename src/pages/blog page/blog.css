@@ -33,20 +33,20 @@
 
 }
 
-.title {
+.tit1 {
     font-size: 1.5rem;
     color: #FDBE33;
    
 }
 
-.subtitle {
+.sub1 {
     font-size: 2.75rem;
     color: #030F27;
     margin-bottom: 30px;
 }
 
 
-.blog-container h2 {
+.blogc h2 {
   font-size: 2em;
   margin-bottom: 20px;
   color: #FDBE33;
@@ -68,7 +68,7 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.blog-image {
+.blog-img {
   width: 100%;
   height: 250px;
   object-fit: cover;
@@ -99,7 +99,7 @@ cursor: pointer;
 transition: color 0.3s;
 }
 
-.blog-description {
+.blogd {
   color: #555;
   font-size: 1em;
   width: 320px;
@@ -110,20 +110,20 @@ transition: color 0.3s;
 
 }
 
-.pagination {
+.pag {
   margin-top: 20px;
   display: flex;
   justify-content: center;
 }
 
-.pagination-button {
+.button {
   color: #030F27;
   border: 1px solid #FDBE33;
   padding: 10px 15px;
   cursor: pointer;
   font-size: 1em;
 }
-.pagination-button1 {
+.button1 {
     color: grey;
     border: 1px solid #FDBE33;
     padding: 10px 15px;
@@ -131,18 +131,18 @@ transition: color 0.3s;
     font-size: 1em;
   }
 
-.pagination-button.active {
+.button.active {
   background: #030F27;
   color: #FDBE33;
 }
 
-.pagination-button:hover {
+.button:hover {
     background: #030F27;
     color: #FDBE33;
 }
 
 
-.project-info {
+.info {
     background-color: #030F27;
     color: #FDBE33;
     padding: 15px;
@@ -156,11 +156,11 @@ transition: color 0.3s;
     margin-bottom: 30px;
 }
 
-.project-info p {
+.info p {
     margin: 0;
 }
 
-.project-info .plus-icon {
+.info .plus {
     background-color: #FDBE33;
     width: 40px;
     height: 40px;
@@ -173,7 +173,7 @@ transition: color 0.3s;
     transition: background-color 0.3s, color 0.3s;
 }
 
-.plus-icon:hover {
+.plus:hover {
    
     color: white;
 }
