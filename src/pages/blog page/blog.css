@@ -87,13 +87,13 @@
   color: #030F27;
 }
 
-.blog-category {
+.blogc {
   color: #666;
   font-size: 0.9em;
   margin: 5px 0;
 }
 
-.blog-category span:hover{
+.blogc span:hover{
 color: #FDBE33;
 cursor: pointer;
 transition: color 0.3s;
