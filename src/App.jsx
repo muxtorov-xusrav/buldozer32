@@ -19,10 +19,7 @@ function App() {
                 <Route path="/blog" element={<Blog />} />
                 <Route path="/single" element={<Single />} />
                 <Route path="/service" element={<Service />} />
-                               
-                
             </Routes>
-            <h1>Hello</h1>
         </div>
     );
 }

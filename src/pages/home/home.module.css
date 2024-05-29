@@ -1,0 +1,137 @@
+.div{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    margin-bottom: -65px;
+}
+.div div{
+    position: absolute;
+    z-index: 10;
+    top: 22%;
+  left: 25%;
+}
+.div img{
+        filter: brightness(0.7); /* 0.5 - bu yorug'lik darajasi. 0 - bu to'liq qorong'i, 1 - bu asl rasm. */  
+}
+.div h1{
+  font-size: 62px;
+  margin-bottom: 35px;
+}
+.div h2{
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: -30px;
+}
+.div2{
+  padding: 120px 60px 80px 60px!important;
+}
+.servicecard{
+  position: relative;
+}
+.servicetitle{
+  position: absolute;
+  color: #fff;
+  z-index: 10;
+  top: 20%;
+  left: 5%;
+  font-size: 18.5px;
+  padding-inline: 25px;
+  transition: all ease-in-out 1s!important;
+}
+.servicetitle p{
+opacity: 0;
+  transition: all ease-in-out 0.8s!important;
+}
+.servicecard:hover .serviceimg{
+  filter: brightness(0.5);
+  transition: all 0.8s;
+}
+.servicecard:hover #plus{
+  color: #fff!important;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.servicecard2:hover #plus{
+  color: #fff!important;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.servicecard:hover .servicetitle p{
+  transition: all ease-in-out 0.8s!important;
+  opacity: 1;
+}
+.video{
+    position: relative;
+    margin: 45px 0;
+    height: 100%;
+    min-height: 500px;
+    background: linear-gradient(rgba(3, 15, 39, .9), rgba(3, 15, 39, .9)), url("../../assets/carousel-1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.play{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.img{
+  width: 120px!important;
+  height: 120px!important;
+  margin-top: 18px;
+
+  border-radius: 50%;
+}
+.carusel2{
+ padding-top: 80px;
+}
+
+@media(max-width:992px){
+.aboutimg{
+  margin-top: 80px;
+}
+}
+@media(max-width:900px){
+#team{
+  width: 300px;
+}
+}
+@media(max-width:768px){
+  .div2{
+    padding: 0px 20px 80px 20px!important;
+  }
+  .aboutimg{
+    margin-top: 200px;
+  }
+}
+@media(max-width:734px){
+  #team{
+    width: 100%;
+  }
+  }
+
+@media(max-width:600px){
+  .div2{
+    margin-top: -100px;
+  }
+  #team{
+    width:300px;
+  }
+}
+
+@media(max-width:381px){
+  #team{
+    width: 100%;
+  }
+}
+
+
+
+  
+
+
+
+
