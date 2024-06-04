@@ -1,0 +1,123 @@
+.h2{
+    text-align: center;
+    font-size: 45px;
+    color: #030f27;
+}
+.about{
+    background: #FDBE33;
+  padding: 60px 0px;
+}
+
+
+.home{
+    font-size: 20px;
+    color: #030f27;
+}
+.slesh{
+    font-size: 20px;
+    color: #030f27;
+}
+
+.home:hover{
+    font-size: 20px;
+    color: white;
+    transition: 0.7s;
+}
+
+.ourser{
+    text-align: center;
+}
+.about-us{
+    font-size: 20px;
+    color: #030f27;
+}
+
+.about-us:hover{
+    font-size: 20px;
+    color: white;
+    transition: 0.7s;
+}
+
+.pages{
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+}
+
+.p{
+    font-size: 18px;
+    color: #FDBE33;
+}
+.h2-w{
+    font-size: 50px;
+    color: #030f27;
+}
+
+
+
+.p1{
+    font-size: 16px;
+    color: #666666;
+}
+
+
+
+.about-a{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.items-2{
+    padding: 0px 16px;
+}
+
+
+
+.usefull{
+    padding-top: 60px;
+    display: flex;
+}
+.bg1{
+    background: #030f27;
+    height: auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 15px;
+
+}
+.bg2{
+    background: #FDBE33;
+    height: auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 15px;
+}
+
+
+.new1{
+    display: flex;
+    justify-content: space-around;
+  align-items: center;
+}
+
+.new{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.new12{
+    margin-top: 15px;
+    border-right: 3px solid #FDBE33;
+    height: 340px;
+}
+
+
+.Cards{
+    display: flex;
+    justify-content:space-around ;
+}
