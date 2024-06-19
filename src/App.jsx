@@ -214,7 +214,6 @@ function App() {
         </Box>
        </Box>
       </Box>
-
         </div>
     );
 }

@@ -1,0 +1,179 @@
+.blog-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.menu {   
+    text-align: center;
+    background-color: #FDBE33;
+    padding: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.tit {
+    width: 100%;
+    font-size: 3.75rem;
+    color: #030F27;
+    margin-bottom: 30px;
+
+
+}
+
+.sub{
+    font-size: 1.5rem;
+    color: #030F27;
+}
+
+.sub span:hover{
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    transition: color 0.5s;
+
+}
+
+.tit1 {
+    font-size: 1.5rem;
+    color: #FDBE33;
+   
+}
+
+.sub1 {
+    font-size: 2.75rem;
+    color: #030F27;
+    margin-bottom: 30px;
+}
+
+
+.blogc h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #FDBE33;
+}
+
+.blog-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.blog-card {
+  background: #F3F6FF;
+  border: 1px solid #ddd;
+  text-align: center;
+  overflow: hidden;
+  width: 360px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.blog-content {
+  padding: 15px;
+  text-align: center;
+ ;
+
+}
+
+.blog-content h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: #030F27;
+}
+
+.blogc {
+  color: #666;
+  font-size: 0.9em;
+  margin: 5px 0;
+}
+
+.blogc span:hover{
+color: #FDBE33;
+cursor: pointer;
+transition: color 0.3s;
+}
+
+.blogd {
+  color: #555;
+  font-size: 1em;
+  width: 320px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px;
+
+
+}
+
+.pag {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  color: #030F27;
+  border: 1px solid #FDBE33;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 1em;
+}
+.button1 {
+    color: grey;
+    border: 1px solid #FDBE33;
+    padding: 10px 15px;
+  
+    font-size: 1em;
+  }
+
+.button.active {
+  background: #030F27;
+  color: #FDBE33;
+}
+
+.button:hover {
+    background: #030F27;
+    color: #FDBE33;
+}
+
+
+.info {
+    background-color: #030F27;
+    color: #FDBE33;
+    padding: 15px;
+    text-align: left;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-top: -4px;
+    margin-bottom: 30px;
+}
+
+.info p {
+    margin: 0;
+}
+
+.info .plus {
+    background-color: #FDBE33;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #030F27;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.plus:hover {
+   
+    color: white;
+}

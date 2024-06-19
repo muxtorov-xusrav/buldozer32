@@ -1,0 +1,181 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+
+.project1 {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.menu {   
+    text-align: center;
+    background-color: #FDBE33;
+    padding: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.tit {
+    width: 100%;
+    font-size: 3.75rem;
+    color: #030F27;
+    margin-bottom: 30px;
+
+
+}
+
+.sub{
+    font-size: 1.5rem;
+    color: #030F27;
+}
+
+.sub span:hover{
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    transition: color 0.5s;
+
+}
+
+.tit1 {
+    font-size: 1.5rem;
+    color: #FDBE33;
+   
+}
+
+.sub1 {
+    font-size: 2.75rem;
+    color: #030F27;
+    margin-bottom: 30px;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.filter-btn {
+    background-color: #FDBE33;
+    color: #030F27;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.filter-btn.active, .filter-btn:hover {
+    background-color: #030F27;
+    color: #FDBE33;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-card {
+    position: relative;
+    width: 300px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    background-color: #fff;
+}
+
+.image-container {
+    position: relative;
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: -4px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.project-card:hover img {
+    transform: scale(1.1);
+}
+
+.ove {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(3, 15, 39, 0.8);
+    color: rgba(255, 252, 252, 0.753);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+    text-align: center;
+    padding: 20px;
+}
+
+.project-card:hover .ove {
+    opacity: 1;
+  
+    transform: scale(1.1);
+}
+
+.info {
+    background-color: #030F27;
+    color: #FDBE33;
+    padding: 15px;
+    text-align: left;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  
+}
+
+.project-info p {
+    margin: 0;
+}
+
+.info .plus {
+    background-color: white;
+
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #030F27;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.project-card:hover .info .plus {
+    background-color: #FDBE33;
+    color: white;
+}
+
+.load {
+    background-color: #FDBE33;
+    color: #030F27;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: background-color 0.3s;
+}
+
+.load:hover {
+    background-color: #030F27;
+    color: #fdbe33;
+}
