@@ -11,14 +11,10 @@ import Box from "@mui/material/Box";
 import AttachEmailIcon from "@mui/icons-material/AttachEmail";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import ContactPhoneIcon from "@mui/icons-material/ContactPhone";
-import './App.css'
-// import Box from '@mui/material/Box';
-// import Navbar from './Component/navbar/index'
 function App() {
     return (
         <div className='App'>
-{/* <Navbar /> */}
-<Box sx={{ display: "flex", justifyContent: "center" }}>
+            <Box sx={{ display: "flex", justifyContent: "center" }}>
         <Box sx={{ background: "#FDBE33", width: "90%", height: 190 }}>
           <Box sx={{ display: "flex", justifyContent: "center", gap: 25 }}>
             <h1
@@ -103,11 +99,20 @@ function App() {
           </Box>
         </Box>
       </Box>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="/project" element={<Project />} />
+                <Route path="/team" element={<Team />} />
+                <Route path="/blog" element={<Blog />} />
+                <Route path="/single" element={<Single />} />
+                <Route path="/service" element={<Service />} />
+                
 
-          
-
-
-
+                
+            </Routes>
+            
             <Box
         sx={{
           background: "#030F27",
@@ -209,7 +214,7 @@ function App() {
         </Box>
        </Box>
       </Box>
-            
+
         </div>
     );
 }
