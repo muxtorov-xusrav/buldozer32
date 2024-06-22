@@ -25,8 +25,8 @@ function App() {
                     >
                         <h1
                             style={{
-                                fontWeight: 800,
-                                color: '#030F27',
+                                fontWeight: 100,
+                                color: '#fff',
                                 fontSize: 50,
                                 marginTop: 20,
                             }}
@@ -37,10 +37,7 @@ function App() {
                             <Box sx={{ display: 'flex', marginTop: 3, gap: 1 }}>
                                 <div>
                                     <CalendarMonthIcon
-                                        style={{
-                                            color: '#030F27',
-                                            fontSize: 50,
-                                        }}
+                                        style={{ color: 'pink', fontSize: 50 }}
                                     />
                                 </div>
                                 <Box>
