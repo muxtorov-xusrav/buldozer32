@@ -1,5 +1,5 @@
 import React from 'react'
-import 'style.css'
+import './style.css'
 import img from '../../assets/about.jpg'
 import EngineeringOutlinedIcon from '@mui/icons-material/EngineeringOutlined';
 import ApartmentIcon from '@mui/icons-material/Apartment';

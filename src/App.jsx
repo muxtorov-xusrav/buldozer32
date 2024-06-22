@@ -19,8 +19,8 @@ function App() {
           <Box sx={{ display: "flex", justifyContent: "center", gap: 25 }}>
             <h1
               style={{
-                fontWeight: 800,
-                color: "#030F27",
+                fontWeight: 100,
+                color: "#fff",
                 fontSize: 50,
                 marginTop: 20,
               }}
@@ -31,7 +31,7 @@ function App() {
               <Box sx={{ display: "flex", marginTop: 3, gap: 1 }}>
                 <div>
                   <CalendarMonthIcon
-                    style={{ color: "#030F27", fontSize: 50 }}
+                    style={{ color: "pink", fontSize: 50 }}
                   />
                 </div>
                 <Box>
@@ -68,7 +68,7 @@ function App() {
                 marginTop: 3,
                 display: "flex",
                 justifyContent: "center",
-                background: "#030F27",
+                background: "none",
                 width: "85%",
                 height: 78,
                 color: "white",
